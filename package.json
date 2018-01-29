@@ -1,0 +1,16 @@
+{
+  "name": "simple_answer_tool",
+  "version": "1.0.0",
+  "description": "100行代码，实现极简头脑王者答题辅助",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "mars",
+  "license": "ISC",
+  "dependencies": {
+    "anyproxy": "^4.0.4",
+    "cheerio": "^1.0.0-rc.2"
+  }
+}
