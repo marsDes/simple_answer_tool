@@ -1,5 +1,4 @@
 const AnyProxy = require('anyproxy');
-const exec = require('child_process').exec;
 const https = require('https');
 const zlib = require('zlib');
 const cheerio = require('cheerio');
