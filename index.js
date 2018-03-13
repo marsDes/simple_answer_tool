@@ -43,7 +43,7 @@ const rule ={
   summary: 'my customized rule for AnyProxy',
   *beforeSendRequest(requestDetail) {},
   *beforeSendResponse(requestDetail, responseDetail) {
-    if(requestDetail.url.indexOf('https://question.hortor.net/question/bat/find')==0){
+    if(requestDetail.url.indexOf('https://question-zh.hortor.net/question/bat/find')==0){
       let body = JSON.parse(responseDetail.response.body.toString())
       let options = body.data.options
       let content = yield sendReq(reqOptions,body.data.quiz)
